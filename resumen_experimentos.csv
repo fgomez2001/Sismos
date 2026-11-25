@@ -1,0 +1,9 @@
+modelo,mae_mag,rmse_mag,r2_mag,mae_mag_M5+,mae_logdt,r2_logdt,mae_mag_std,r2_mag_std
+baseline_media_train,0.4747,0.5742,-0.1265,2.0975,0.4291,-0.1446,0.0,0.0
+baseline_mediana_train,0.4508,0.558,-0.0639,2.1532,0.3928,-0.0163,0.0,0.0
+baseline_persistencia,0.5507,0.7421,-0.8815,2.2596,0.4891,-0.7895,0.0,0.0
+baseline_promedio_ventana,0.4124,0.5431,-0.0079,2.2566,0.3762,0.0143,0.0,0.0
+lstm_atencion_ponderada,0.4127,0.5436,-0.0096,2.2643,0.376,0.0153,0.0,0.0
+lstm_atencion_sin_pesos,0.4022,0.5459,-0.0181,2.3444,0.3733,0.0006,0.0,0.0
+lstm_apilada_sin_pesos,0.3965,0.546,-0.0185,2.3748,0.3706,-0.0035,0.0,0.0
+control_etiquetas_barajadas,0.4324,0.5466,-0.0208,2.209,0.3964,-0.0271,0.0,0.0

@@ -1,0 +1,40 @@
+{
+  "crudo": {
+    "filas": 130322,
+    "nulos_por_columna": {},
+    "fechas_invalidas": 0,
+    "fuera_de_chile_continental": 7384,
+    "lat_imposible": 1,
+    "magnitud_fuera_de_0_10": 0,
+    "profundidad_negativa_o_gt_700km": 0,
+    "duplicados_exactos": 4
+  },
+  "eventos_limpios": 122934,
+  "magnitud": {
+    "count": 122934.0,
+    "mean": 3.2137634828444535,
+    "std": 0.6618548809526107,
+    "min": 1.1,
+    "25%": 2.7,
+    "50%": 3.1,
+    "75%": 3.6,
+    "max": 8.8
+  },
+  "desplazamiento_de_distribucion": {
+    "ks_magnitud_train_vs_test": 0.1641360360534132,
+    "ks_log_dt_train_vs_test": 0.12493309679703801,
+    "ks_profundidad_train_vs_test": 0.17967859593069851,
+    "mc_train": 2.9000000000000017,
+    "mc_test": 2.6000000000000014,
+    "eventos_por_split": {
+      "train": 92513,
+      "val": 23323,
+      "test": 7098
+    }
+  },
+  "alertas": [
+    "La magnitud de completitud cambió entre train y test: el catálogo no es homogéneo en el tiempo (cambios de red sísmica).",
+    "La distribución de magnitudes cambia entre train y test (KS > 0.1).",
+    "La distribución de tiempos entre eventos cambia entre train y test (KS > 0.1)."
+  ]
+}
