@@ -7,7 +7,7 @@ Proyecto de *deep learning* que, a partir de los últimos 30 eventos del catálo
 
 El modelo es una **LSTM multitarea con atención** (PyTorch). El proyecto incluye limpieza y control de calidad del catálogo, comparación contra *baselines* honestos, un control con etiquetas barajadas para detectar fuga de información y pruebas automáticas.
 
-> ⚠️ **Aviso:** es un proyecto experimental/académico. No predice terremotos ni sirve como sistema de alerta. Predice la magnitud y el tiempo del *siguiente evento del catálogo* (la gran mayoría son sismos pequeños y réplicas), y su capacidad para superar a un baseline simple debe verificarse con los resultados (ver [Resultados](#resultados)).
+>Aviso: es un proyecto experimental/académico. No predice terremotos ni sirve como sistema de alerta. Predice la magnitud y el tiempo del *siguiente evento del catálogo* (la gran mayoría son sismos pequeños y réplicas), y su capacidad para superar a un baseline simple debe verificarse con los resultados (ver [Resultados](#resultados)).
 
 ---
 
