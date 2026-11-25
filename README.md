@@ -99,7 +99,7 @@ cd NOMBRE-DEL-REPO
 pip install numpy pandas matplotlib torch pytest
 ```
 
-(Puedes generar un `requirements.txt` con `pip freeze > requirements.txt`.)
+
 
 ### Configurar rutas
 
