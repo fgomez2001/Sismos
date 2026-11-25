@@ -2,8 +2,8 @@
 
 Proyecto de *deep learning* que, a partir de los últimos 30 eventos del catálogo sísmico de Chile (2000 – nov 2023), estima dos cosas sobre el **siguiente evento registrado**:
 
-- su **magnitud**, y
-- el **tiempo de espera** hasta que ocurra (modelado como `log(1 + horas)`).
+- **magnitud**
+- **tiempo de espera** hasta que ocurra (modelado como `log(1 + horas)`).
 
 El modelo es una **LSTM multitarea con atención** (PyTorch). El proyecto incluye limpieza y control de calidad del catálogo, comparación contra *baselines* honestos, un control con etiquetas barajadas para detectar fuga de información y pruebas automáticas.
 
@@ -94,8 +94,8 @@ El modelo debe superar al **mejor** de estos baselines, no solo a la media:
 ## Instalación
 
 ```bash
-git clone https://github.com/fgomez2001/NOMBRE-DEL-REPO.git
-cd NOMBRE-DEL-REPO
+git clone https://github.com/fgomez2001/Sismos.git
+cd Sismos
 pip install numpy pandas matplotlib torch pytest
 ```
 
